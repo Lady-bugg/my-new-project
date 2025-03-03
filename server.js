@@ -5,7 +5,10 @@ const app = express();
 app.use(express.static("public"));
 
 // Start the server
-const PORT = 3000;
+const PORT = 5000;
 app.listen(PORT, () => {
     console.log(`Server is running at http://localhost:${PORT}`);
+});
+app.get("/api/test", (req, res) => {
+    res.json({ message: "This is the backend responding!" });
 });
