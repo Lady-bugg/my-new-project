@@ -1,2 +1,1 @@
-# my-new-project
- to do app dev
+#my first app on GitHub..
